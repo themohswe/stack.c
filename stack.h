@@ -7,5 +7,5 @@ void push(int value);
 void pop();
 void peek();
 void display();
-
+int size();
 #endif
