@@ -5,7 +5,7 @@
 
 void push(int value);
 void pop();
-int peek();
+void peek();
 void display();
 
 #endif

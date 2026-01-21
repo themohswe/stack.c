@@ -35,12 +35,20 @@ void display()
 	printf("\n");
 }
 
+void peek() 
+{
+	if (top == -1) {
+		printf("Stack is empty!.\n");
+	}
+	int current_top = stack[top];
+	printf("%d\n",current_top);
+}
+
 int main() {
 	push(30);
 	push(40);
 	push(50);
-	push(90);
-	push(90);
-	display();
+	peek();
+
 	return 0;
 }
